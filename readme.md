@@ -3,8 +3,7 @@ Khromets Magento2 Testimonials module
 ###How to install
 
 ```
-composer config repositories.ahromets git git@github.com:ahromets/testimonials.git
-composer require ahromets/testimonials
+composer require ahromets/testimonials:dev-master
 php bin/magento setup:upgrade
 ```
 
