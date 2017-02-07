@@ -1,0 +1,28 @@
+{
+  "name": "ahromets/testimonials",
+  "description": "Magento2 testimonials module",
+  "minimum-stability": "alpha",
+  "require": {
+    "php": "~5.5.0|~5.6.0|~7.0.0",
+    "magento/magento-composer-installer": "*"
+  },
+  "authors": [
+    {
+      "name": "Alexey Khromets",
+      "email": "alexchromets@gmail.com"
+    }
+  ],
+  "type": "magento2-module",
+  "version": "100.0.0",
+  "license": [
+    "proprietary"
+  ],
+  "extra": {
+    "map": [
+      [
+        "*",
+        "Ahromets/Testimonials"
+      ]
+    ]
+  }
+}

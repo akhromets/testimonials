@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Ahromets_Testimonials::testimonials_content" title="Testimonials" module="Ahromets_Testimonials" sortOrder="50" parent="Magento_Backend::content" resource="Ahromets_Testimonials::testimonials_content" />
+        <add id="Ahromets_Testimonials::testimonial" title="Testimonials" module="Ahromets_Testimonials" sortOrder="0" parent="Ahromets_Testimonials::testimonials_content" action="testimonials/testimonial" resource="Ahromets_Testimonials::testimonial"/>
+    </menu>
+</config>
