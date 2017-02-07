@@ -1,9 +1,7 @@
 {
   "name": "ahromets/testimonials",
   "description": "Magento2 testimonials module",
-  "minimum-stability": "dev",
   "require": {
-    "php": "~5.5.0|~5.6.0|~7.0.0",
     "magento/magento-composer-installer": "*"
   },
   "authors": [
